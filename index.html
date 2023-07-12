@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="myform">
+      <form onsubmit="return verify()" action="done.html">
+        <h1>Stay updated!</h1> <br>
+        <p>Join 60,000+ products managers receiving monthly updates on:</p> <br>
+        <div class="main-text">
+          <p><img src="assets/images/icon-list.svg" alt="">Product discovery and building what matters</p>
+          <p><img src="assets/images/icon-list.svg" alt="">Mesuring to ensure updates are a success</p>
+          <p><img src="assets/images/icon-list.svg" alt="">And much more</p>
+        </div> <br>
+        <div class="div-small-label">
+          <p class="small-label">Email address</p>
+          <p class="small-label" id="error"></p>
+        </div>
+        
+        <input id="email" class="email" type="text" placeholder="email@company.com"> <br>
+        <input class="btn" type="submit" value="Subscribe to monthly newsletter">
+      </form>
+    </div>
+    <div class="logo">
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="img">
+    </div>
+  </div>
+</body>
+</html>

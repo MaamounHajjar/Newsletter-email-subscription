@@ -1,0 +1,102 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(234, 29%, 20%);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: white;
+    width: 900px;
+    border-radius: 50px;
+}
+
+.myform {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+}
+
+.main-text p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-family:'Roboto', sans-serif;
+}
+
+p {
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.email {
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px;
+    border-width: 1px;
+}
+
+.btn {
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    width: 330px;
+    border-radius: 5px;
+    padding: 15px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.small-label {
+    font-weight: bolder;
+    color: hsl(234, 29%, 20%);
+    font-family:'Roboto', sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.div-small-label {
+    display: flex;
+    gap: 170px;
+}
+
+#error {
+    color: hsl(4, 100%, 67%);
+}
+
+
+.container-done {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.container-done-inner {
+    padding: 40px;
+    padding-left: 50px;
+}
