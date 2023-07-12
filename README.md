@@ -16,11 +16,11 @@ Users should be able to:
 ![Alt text](assets/images/ss3.PNG)
 
 ### Built with
-HTML
-CSS (FlexBox)
-JavaScript
+- HTML
+- CSS (FlexBox)
+- JavaScript
 
 ### What I learned
-Applying styles which JavaScript
-LocalStorage
+- Applying styles which JavaScript
+- LocalStorage
 
