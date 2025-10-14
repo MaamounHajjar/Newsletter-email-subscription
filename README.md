@@ -17,10 +17,6 @@ Users should be able to:
 
 ### Built with
 - HTML
-- CSS (FlexBox)
+- CSS
 - JavaScript
-
-### What I learned
-- Applying styles which JavaScript
-- LocalStorage
 
